@@ -33,7 +33,7 @@ export const DeveloperForm = ({dispatch}) => {
     // add list of developers
 
     return (
-        <div>
+        <div className='theForm'>
             <form onSubmit={handleSubmit}>
                 <label className='forLabel'>
                     Name:
